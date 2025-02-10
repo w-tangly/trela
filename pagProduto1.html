@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Processador AMD Ryzen 5 5600G 3.90GHz (4.40GHz Turbo)</title>
+    <link rel="stylesheet" href="./assets/css/produto.css">
+</head>
+
+<body>
+    <main>
+        <header>
+            <div class="header">
+                <!-- LOGO -->
+                <div class="div-logo">
+                    <a href="./index.html"><img src="./assets/img/logo.png" alt="" class="logo">
+                        <h1>OlePix</h1>
+                    </a>
+
+                </div>
+
+                <!-- BOOTSTRAP SEARCH -->
+                <div class="search-bar">
+                    <input type="search" placeholder="Busque seu produto" class="input">
+                    <img src="./assets/img/searchIcon.png" alt="" class="search">
+                </div>
+
+                <div class="nav2">
+                    <ul class="burg">
+                        <li onclick="showSidebar()"><a href="#"><svg class="icon" xmlns="http://www.w3.org/2000/svg"
+                                    height="24px" viewBox="0 -960 960 960" width="24px" fill="#fff">
+                                    <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z" />
+                                </svg></a></li>
+                    </ul>
+                </div>
+
+
+                <ul class="sidebar">
+                    <li onclick="hideSidebar()"><a href="#"><svg class="icon-x" xmlns="http://www.w3.org/2000/svg"
+                                height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368">
+                                <path
+                                    d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z" />
+                            </svg></a></li>
+                    <li class="burg-text"><a class="hideDesktop"></a></li>
+                    <li class="burg-text"><a href="./index.html">Início</a></li>
+                    <li class="burg-text"><a href="#">Computadores</a></li>
+                    <li class="burg-text"><a href="#">Hardware</a></li>
+                    <li class="burg-text"><a href="#">Entre em contato</a></li>
+                    <li class="burg-text"><a href="#">Sobre a empresa</a></li>
+                </ul>
+            </div>
+            <div class="nav">
+                <nav>
+                    <ul>
+                        <li><a href="./index.html">Início</a></li>
+                        <li>Computadores</li>
+                        <li>Hardware</li>
+                        <li>Entre em contato</li>
+                        <li id="last">Sobre a empresa</li>
+                        <!-- Ficamos com um pouco de preguiça de fazer as outras páginas -->
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <div class="hero">
+            <div class="hero-img">
+                <img src="./assets/img/processador.png" alt="">
+            </div>
+
+            <div class="hero-desc">
+                <div class="sup">
+                    <h2 class="nome-item">Processador AMD Ryzen 5 5600G 3.90GHz (4.40GHz Turbo)</h2>
+                    <div class="pagamento">
+                        <div class="preco+parcela">
+                            <h3 class="preco">R$ 999,99</h3>
+                            <p class="parcela">À vista no PIX com <b>14% OFF</b><br><br>
+
+                                <b>R$ 1162,77</b><br>
+                                Em até 10x de <b>R$ 116,27</b> sem juros<br>
+                                Ou em 1x no cartão com <b>10% OFF</b></p>
+                        </div>
+                        <a href="#" class="comprar">Comprar</a>
+                    </div>
+                </div>
+                <div class="sub">
+                    <h4>Especificações:</h4>
+                    <p class="especificacoes">
+                        Número de núcleos (Cores): 6<br>
+                        Número de Threads: 12<br>
+                        Velocidade de Clock: 3.9GHz padrão ou com Max Boost até 4.4GHz<br>
+                        Cache L2: 3MB<br>
+                        Cache L3: 16MB<br>
+                        PCI Express: PCIe 3.0<br>
+                        Desbloqueado: Sim
+                    </p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <h1 id="projetoFinal">Projeto Final do Semestre</h1>
+        <h2 id="cr">Site realizado pelos alunos:<br>
+        Pedro Henrique Campos do Carmo<br>
+        Pedro Henrique Klarosk de Araújo</h2>
+    </footer>
+</body>
+<script>
+    function showSidebar() {
+        const sidebar = document.querySelector(".sidebar")
+        sidebar.style.display = "flex";
+    }
+
+    function hideSidebar() {
+        const sidebar = document.querySelector(".sidebar")
+        sidebar.style.display = "none";
+    }
+</script>
+</html>
