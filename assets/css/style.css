@@ -233,24 +233,69 @@ ul {
 footer {
     background-color: #F28B0C;
     font-family: SUSE;
-    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
     align-items: center;
-    text-align: center;
-
-    padding: 1rem 0 0 0;
+    padding-top: 2rem;
 }
 
-#projetoFinal,
-#cr {
-    color: #fff;
+.whotitle {
+    font-weight: 600;
+    font-size: 48px;
 }
 
-#projetoFinal {
-    font-weight: bold;
+.whotxt {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: Inter;
+    max-width: 18vw;
+    padding: 2rem 0;
+    font-size: 20px;
 }
 
-#cr {
-    font-weight: lighter;
+.who img {
+    width: 100px;
+    height: 100px;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    font-size: 30px;
+}
+
+.linkstitle {
+    font-size: 48px;
+    font-weight: 600;
+}
+
+.contato {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+}
+
+.contatotitle {
+    font-weight: 600;
+    font-size: 48px;
+}
+
+.contatotxt {
+    font-size: 28px;
+}
+
+.socialmedia {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.socialmedia a img {
+    width: 60px;
+    height: 60px;
 }
 
 /* Fim FOOTER */
